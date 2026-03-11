@@ -1699,7 +1699,8 @@ input, select, textarea {
     background: #2b2f33;
     color: #fff;
     padding: 0.2rem 1rem;
-	line-height: 1
+	line-height: 1.3;
+	height:auto;
     border: none;
     border-radius: 5px;
     cursor: pointer;
