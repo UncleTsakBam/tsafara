@@ -1825,3 +1825,57 @@ textarea:focus {
 }
 
 }
+
+/* Social & Communication Icons */
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5rem;
+}
+
+ul.icons li {
+    display: inline-block;
+    padding: 0 0.75rem 0 0;
+}
+
+ul.icons li:last-child {
+    padding-right: 0;
+}
+
+ul.icons li a {
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    display: inline-block;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    width: 2.5rem;
+    transition: all 0.3s ease;
+    border-bottom: none;
+}
+
+/* Χρώματα Hover για κάθε εφαρμογή */
+ul.icons li a.fa-whatsapp:hover {
+    background-color: #25D366;
+    box-shadow: inset 0 0 0 1px #25D366;
+    color: #fff;
+}
+
+ul.icons li a.fa-viber:hover {
+    background-color: #7360f2;
+    box-shadow: inset 0 0 0 1px #7360f2;
+    color: #fff;
+}
+
+ul.icons li a.fa-instagram:hover {
+    background-color: #E1306C;
+    box-shadow: inset 0 0 0 1px #E1306C;
+    color: #fff;
+}
+
+ul.icons li a.fa-linkedin-in:hover {
+    background-color: #0077B5;
+    box-shadow: inset 0 0 0 1px #0077B5;
+    color: #fff;
+}
